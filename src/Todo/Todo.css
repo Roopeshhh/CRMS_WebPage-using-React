@@ -1,0 +1,179 @@
+/* Todo.css */
+.todo-container {
+    width: 100%;
+    height: calc(100vh - 120px);
+    /* overflow-y: auto; */
+    /* padding: 20px; */
+    margin: 10px 40px;
+  }
+  
+  .todo-sidebar {
+    height: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+  }
+  
+  /* Sidebar Navigation Styles */
+  .nav-link {
+    color: #64748b !important;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-link:hover,.nav-item:hover {
+    background-color: #0f172a;
+    color: #ffffff !important;
+  }
+  
+  .nav-item.active {
+    background-color: #f1f5f9;
+    color: #0f172a !important;
+  }
+  
+  /* Badge count styles */
+  .nav-link .badge {
+    background-color: #ef4444;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    margin-left: auto;
+  }
+  
+  /* Tags section */
+  .tags-section {
+    margin-top: 30px;
+  }
+  
+  .tags-section h6 {
+    color: #64748b;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-left: 15px;
+  }
+  
+  /* Tag items */
+  .tag-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #64748b;
+  }
+  
+  .tag-item::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+  
+  /* Tag colors */
+  .tag-pending::before {
+    background-color: #3b82f6;
+  }
+  
+  .tag-onhold::before {
+    background-color: #f97316;
+  }
+  
+  .tag-inprogress::before {
+    background-color: #8b5cf6;
+  }
+  
+  .tag-done::before {
+    background-color: #22c55e;
+  }
+  
+  /* Todo content area */
+  .todo-content {
+    padding: 20px;
+  }
+  
+  /* Task card styles */
+  .task-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .task-card:hover {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  /* Priority and status badges */
+  .badge {
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-weight: 500;
+  }
+  
+  .badge-high {
+    background-color: #fee2e2;
+    color: #ef4444;
+  }
+  
+  .badge-medium {
+    background-color: #fef3c7;
+    color: #f59e0b;
+  }
+  
+  .badge-low {
+    background-color: #dcfce7;
+    color: #22c55e;
+  }
+  
+  /* Header section */
+  .todo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .todo-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0f172a;
+  }
+  
+  /* Action buttons */
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn-outline-secondary {
+    border-color: #e0e0e0;
+    color: #64748b;
+  }
+  
+  .btn-outline-secondary:hover {
+    background-color: #f8fafc;
+    color: #0f172a;
+    border-color: #e0e0e0;
+  }
+  
+  /* Add Task button */
+  .btn-add-task {
+    background-color: #ffa500; /* Yellow color */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+  
+  .btn-add-task:hover {
+    background-color: #ff9500;
+  }

@@ -1,0 +1,43 @@
+{
+  "yearlyData": {
+    "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+    "data": [15000, 18000, 20000, 38000, 25000, 35000, 30000, 18000, 15000, 50000, 30000, 25000]
+  },
+  "stageData": {
+    "labels": ["Plan", "Completed", "Develop", "Design"],
+    "data": [34, 55, 50, 17],
+    "colors": ["#7352FF", "#4CAF50", "#2196F3", "#FFA000"]
+  },
+  "projectList": [
+    {
+      "name": "Truelysell",
+      "logo": "📱",
+      "client": {
+        "name": "NovaWave LLC",
+        "logo": "🌟"
+      },
+      "priority": "High",
+      "startDate": "25 Sep 2023",
+      "endDate": "15 Oct 2023",
+      "type": "Web App",
+      "pipelineStage": "Plan",
+      "budgetValue": 200000,
+      "currentlySpend": 40000
+    },
+    {
+      "name": "Dreamschat",
+      "logo": "💬",
+      "client": {
+        "name": "BlueSky Industries",
+        "logo": "🌿"
+      },
+      "priority": "Medium",
+      "startDate": "29 Sep 2023",
+      "endDate": "19 Oct 2023",
+      "type": "Web App",
+      "pipelineStage": "Develop",
+      "budgetValue": 300000,
+      "currentlySpend": 120000
+    }
+  ]
+} 

@@ -1,0 +1,309 @@
+{
+  "recentContacts": [
+    {
+      "id": 1,
+      "name": "Carol Thomas",
+      "role": "UI/UX Designer",
+      "email": "caroo3@example.com",
+      "phone": "+1 124547845",
+      "createdAt": "25 Sep 2023",
+      "avatar": "/avatars/carol.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Dawn Mercha",
+      "role": "Technician",
+      "email": "dercha@example.com",
+      "phone": "+1 478845447",
+      "createdAt": "27 Sep 2023",
+      "avatar": "/avatars/dawn.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Rachel Hampton",
+      "role": "Software developer",
+      "email": "rael@example.com",
+      "phone": "+1 215544845",
+      "createdAt": "04 Oct 2023",
+      "avatar": "/avatars/rachel.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Jonelle Curtiss",
+      "role": "Supervisor",
+      "email": "joe@example.com",
+      "phone": "+1 124547845",
+      "createdAt": "17 Oct 2023",
+      "avatar": "/avatars/jonelle.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Sharon Roy",
+      "role": "Installer",
+      "email": "sharon@example.com",
+      "phone": "+1 466701256",
+      "createdAt": "15 Nov 2023",
+      "avatar": "/avatars/sharon.jpg"
+    }
+  ],
+  "dealsByStage": {
+    "labels": ["Inpipeline", "Follow Up", "Schedule", "Conversation", "Won", "Lost"],
+    "data": [400, 130, 248, 470, 470, 180]
+  },
+  "wonDealsStage": {
+    "labels": ["Conversation", "Follow Up", "Inpipeline"],
+    "data": [400, 150, 250]
+  },
+  "activities": [
+    {
+      "id": 1,
+      "title": "We scheduled a meeting for...",
+      "dueDate": "10 Feb 2024, 09:00",
+      "type": "Meeting",
+      "status": "Inprogress",
+      "assignee": {
+        "name": "Darlee...",
+        "avatar": "/avatars/darlee.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Regarding latest updates in...",
+      "dueDate": "29 Sep 2023, 08:20",
+      "type": "Email",
+      "status": "Inprogress",
+      "assignee": {
+        "name": "Dawn...",
+        "avatar": "/avatars/dawn.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Call John and discuss about...",
+      "dueDate": "05 Oct 2023, 10:35",
+      "type": "Task",
+      "status": "Inprogress",
+      "assignee": {
+        "name": "Carol...",
+        "avatar": "/avatars/carol.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Discussed budget proposal...",
+      "dueDate": "16 Oct 2023, 04:40",
+      "type": "Calls",
+      "status": "Inprogress",
+      "assignee": {
+        "name": "Sharon Roy",
+        "avatar": "/avatars/sharon.jpg"
+      }
+    }
+  ],
+  "recentDeals": [
+    {
+      "id": 1,
+      "name": "Collins",
+      "stage": "Conversation",
+      "value": 4451000,
+      "probability": "85%",
+      "status": "Won"
+    },
+    {
+      "id": 2,
+      "name": "Konopelski",
+      "stage": "Pipeline",
+      "value": 414800,
+      "probability": "15%",
+      "status": "Lost"
+    },
+    {
+      "id": 3,
+      "name": "Adams",
+      "stage": "Won",
+      "value": 414800,
+      "probability": "95%",
+      "status": "Won"
+    }
+  ],
+  "lostLeadsData": {
+    "labels": ["Conversation", "Follow Up", "Inpipeline"],
+    "data": [350, 200, 400]
+  },
+  "recentLeads": [
+    {
+      "id": 1,
+      "name": "Collins",
+      "company": {
+        "name": "NovaWaveLLC",
+        "location": "Newyork, USA",
+        "logo": "/logos/novawave.png"
+      },
+      "phone": "+1 875455453",
+      "status": "Closed"
+    },
+    {
+      "id": 2,
+      "name": "Collins",
+      "company": {
+        "name": "Konopelski",
+        "location": "Winchester, KY",
+        "logo": "/logos/konopelski.png"
+      },
+      "phone": "+1 989757485",
+      "status": "Not Contacted"
+    },
+    {
+      "id": 3,
+      "name": "Adams",
+      "company": {
+        "name": "SilverHawk",
+        "location": "Jametown, NY",
+        "logo": "/logos/silverhawk.png"
+      },
+      "phone": "+1 546555455",
+      "status": "Closed"
+    },
+    {
+      "id": 4,
+      "name": "Schumm",
+      "company": {
+        "name": "SummitPeak",
+        "location": "Compton, RI",
+        "logo": "/logos/summitpeak.png"
+      },
+      "phone": "+1 454478787",
+      "status": "Contacted"
+    },
+    {
+      "id": 5,
+      "name": "Wisozk",
+      "company": {
+        "name": "RiverStone Ventur",
+        "location": "Dayton, OH",
+        "logo": "/logos/riverstone.png"
+      },
+      "phone": "+1 124547845",
+      "status": "Closed"
+    }
+  ],
+  "recentCompanies": [
+    {
+      "id": 1,
+      "name": "NovaWaveLLC",
+      "logo": "/logos/novawave.png",
+      "email": "caroo3@example.com",
+      "phone": "+1 124547845",
+      "createdAt": "25 Sep 2023"
+    },
+    {
+      "id": 2,
+      "name": "SilverHawk",
+      "logo": "/logos/silverhawk.png",
+      "email": "dercha@example.com",
+      "phone": "+1 478845447",
+      "createdAt": "27 Sep 2023"
+    },
+    {
+      "id": 3,
+      "name": "SummitPeak",
+      "logo": "/logos/summitpeak.png",
+      "email": "rael@example.com",
+      "phone": "+1 215544845",
+      "createdAt": "04 Oct 2023"
+    },
+    {
+      "id": 4,
+      "name": "RiverStone Ventur",
+      "logo": "/logos/riverstone.png",
+      "email": "joe@example.com",
+      "phone": "+1 124547845",
+      "createdAt": "17 Oct 2023"
+    },
+    {
+      "id": 5,
+      "name": "CoastalStar Co.",
+      "logo": "/logos/coastalstar.png",
+      "email": "joe@example.com",
+      "phone": "+1 124547845",
+      "createdAt": "17 Oct 2023"
+    }
+  ],
+  "recentCampaigns": [
+    {
+      "id": 1,
+      "name": "Distribution",
+      "type": "Public Relations",
+      "status": "Announced",
+      "stats": {
+        "opened": 30.5,
+        "closed": 20.5,
+        "unsubscribe": 30.5,
+        "delivered": 70.5,
+        "conversation": 35.0
+      },
+      "dueDate": "25 Sep 2023",
+      "assignees": [
+        { "avatar": "/avatars/user1.jpg" },
+        { "avatar": "/avatars/user2.jpg" },
+        { "avatar": "/avatars/user3.jpg" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Pricing",
+      "type": "Social Marketing",
+      "status": "Running",
+      "stats": {
+        "opened": 42.5,
+        "closed": 38.2,
+        "unsubscribe": 48.8,
+        "delivered": 62.7,
+        "conversation": 22.5
+      },
+      "dueDate": "14 Oct 2023",
+      "assignees": [
+        { "avatar": "/avatars/user2.jpg" },
+        { "avatar": "/avatars/user4.jpg" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Merchandising",
+      "type": "Content Marketing",
+      "status": "Paused",
+      "stats": {
+        "opened": 52.5,
+        "closed": 29.3,
+        "unsubscribe": 62.8,
+        "delivered": 71.3,
+        "conversation": 39.5
+      },
+      "dueDate": "14 Oct 2023",
+      "assignees": [
+        { "avatar": "/avatars/user1.jpg" },
+        { "avatar": "/avatars/user3.jpg" },
+        { "avatar": "/avatars/user5.jpg" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Repeat Customers",
+      "type": "Rebranding",
+      "status": "Success",
+      "stats": {
+        "opened": 17.5,
+        "closed": 49.5,
+        "unsubscribe": 35.2,
+        "delivered": 54.8,
+        "conversation": 60.5
+      },
+      "dueDate": "29 Oct 2023",
+      "assignees": [
+        { "avatar": "/avatars/user2.jpg" },
+        { "avatar": "/avatars/user4.jpg" },
+        { "avatar": "/avatars/user6.jpg" }
+      ]
+    }
+  ]
+}

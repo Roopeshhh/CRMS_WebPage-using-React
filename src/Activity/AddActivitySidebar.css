@@ -1,0 +1,67 @@
+.sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1040;
+  }
+  
+  .activity-sidebar {
+    position: fixed;
+    top: 0;
+    right: -500px;
+    width: 500px;
+    height: 100vh;
+    background-color: #ffffff;
+    z-index: 1050;
+    transition: right 0.3s ease-in-out;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .activity-sidebar.open {
+    right: 0;
+  }
+  
+  .sidebar-header {
+    padding: 1rem;
+    border-bottom: 1px solid #dee2e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+  }
+  
+  .sidebar-body {
+    padding: 1rem;
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+  }
+  
+  .rich-text-toolbar {
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    background-color: #f8f9fa;
+  }
+  
+  /* Custom scrollbar */
+  .sidebar-body::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .sidebar-body::-webkit-scrollbar-track {
+    background: #f8f9fa;
+  }
+  
+  .sidebar-body::-webkit-scrollbar-thumb {
+    background: #dee2e6;
+    border-radius: 3px;
+  }
+  
+  .sidebar-body::-webkit-scrollbar-thumb:hover {
+    background: #adb5bd;
+  }

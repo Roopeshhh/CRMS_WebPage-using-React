@@ -1,0 +1,109 @@
+
+{
+    "tasks": [
+      {
+        "id": 1,
+        "title": "Meeting with Shaun Park at 4:50pm",
+        "description": "Discuss about new project",
+        "date": "2024-01-15",
+        "priority": "high",
+        "status": "new",
+        "category": "inbox",
+        "assignee": {
+          "name": "Sarah Wilson",
+          "avatar": "https://randomuser.me/api/portraits/women/1.jpg"
+        }
+      },
+      {
+        "id": 2,
+        "title": "Team meet at Starbucks",
+        "description": "Identify the implementation team",
+        "date": "2024-01-14",
+        "priority": "high",
+        "status": "pending",
+        "category": "inbox",
+        "assignee": {
+          "name": "John Doe",
+          "avatar": "https://randomuser.me/api/portraits/men/1.jpg"
+        }
+      },
+      {
+        "id": 3,
+        "title": "Meet Lisa to discuss project details",
+        "description": "Discuss about additional features",
+        "date": "2024-01-14",
+        "priority": "medium",
+        "status": "inprogress",
+        "category": "important",
+        "assignee": {
+          "name": "Mike Johnson",
+          "avatar": "https://randomuser.me/api/portraits/men/2.jpg"
+        }
+      },
+      {
+        "id": 4,
+        "title": "Download Complete",
+        "description": "Install console machines and prerequiste softwares",
+        "date": "2024-01-14",
+        "priority": "low",
+        "status": "completed",
+        "category": "done",
+        "assignee": {
+          "name": "Lisa Smith",
+          "avatar": "https://randomuser.me/api/portraits/women/2.jpg"
+        }
+      },
+      {
+        "id": 1,
+        "title": "Meeting with Shaun Park at 4:50pm",
+        "description": "Discuss about new project",
+        "date": "2024-01-15",
+        "priority": "high",
+        "status": "new",
+        "category": "inbox",
+        "assignee": {
+          "name": "Sarah Wilson",
+          "avatar": "https://randomuser.me/api/portraits/women/1.jpg"
+        }
+      },
+      {
+        "id": 2,
+        "title": "Team meet at Starbucks",
+        "description": "Identify the implementation team",
+        "date": "2024-01-14",
+        "priority": "high",
+        "status": "pending",
+        "category": "inbox",
+        "assignee": {
+          "name": "John Doe",
+          "avatar": "https://randomuser.me/api/portraits/men/1.jpg"
+        }
+      },
+      {
+        "id": 3,
+        "title": "Meet Lisa to discuss project details",
+        "description": "Discuss about additional features",
+        "date": "2024-01-14",
+        "priority": "medium",
+        "status": "inprogress",
+        "category": "important",
+        "assignee": {
+          "name": "Mike Johnson",
+          "avatar": "https://randomuser.me/api/portraits/men/2.jpg"
+        }
+      },
+      {
+        "id": 4,
+        "title": "Download Complete",
+        "description": "Install console machines and prerequiste softwares",
+        "date": "2024-01-14",
+        "priority": "low",
+        "status": "completed",
+        "category": "done",
+        "assignee": {
+          "name": "Lisa Smith",
+          "avatar": "https://randomuser.me/api/portraits/women/2.jpg"
+        }
+      }
+    ]
+  }

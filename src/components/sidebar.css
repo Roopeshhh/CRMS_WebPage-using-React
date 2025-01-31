@@ -1,0 +1,114 @@
+.sidebar {
+  position: fixed;
+  top: 40px;
+  left: 0;
+  height: 100vh; 
+  width: 250px;
+  background-color: #f0f0f0;
+  color: white;
+  padding: 20px 0;
+  overflow-y: auto;
+}
+
+/* .user-profile {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+} */
+.user-profile a{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+.user-profile .profile-img {
+  border-radius: 10%;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.user-profile .user-information h5 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.user-profile .user-information p {
+  margin: 0;
+  font-size: 12px;
+  color: #888;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-title {
+  font-size: 14px;
+  color: #888;
+  padding: 15px 20px;
+  text-transform: uppercase;
+}
+.menu a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu-item {
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  transition: all 0.3s;
+}
+
+.menu-item:hover {
+  background-color: #f0f0f0;
+}
+
+.menu-item.active {
+  background-color: #f8d7da;
+  color: #dc3545;
+}
+
+.menu-item .menu-icon {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.dropdown-icon {
+  margin-left: auto;
+  font-size: 12px;
+}
+
+.submenu {
+  list-style: none;
+  padding-left: 40px;
+}
+
+.submenu-item {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 0;
+  color: #555;
+  cursor: pointer;
+}
+
+.submenu-item:hover {
+  color: #333;
+}
+.sidebar .menu .menu-item a {
+  text-decoration: none; 
+  color: inherit; 
+}
+.sidebar .menu .submenu-item a{
+  text-decoration: none;
+  color: inherit;
+}

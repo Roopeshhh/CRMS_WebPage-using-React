@@ -1,0 +1,36 @@
+.card {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.date-picker {
+  font-size: 14px;
+  color: #666;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.input-group {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+.input-group-text {
+  border: 1px solid #ddd;
+}
+
+.form-control {
+  border: 1px solid #ddd;
+}
+
+.btn-outline-secondary {
+  border: 1px solid #ddd;
+}
+
+.badge {
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 15px;
+}

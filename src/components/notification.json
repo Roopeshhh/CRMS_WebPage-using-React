@@ -1,0 +1,29 @@
+{
+    "notifications": [
+      {
+        "id": 1,
+        "name": "Ray Arnold",
+        "message": "left 6 comments on Isla Nublar SOC2 compliance report",
+        "time": "Last Wednesday at 9:42 am",
+        "image": "https://randomuser.me/api/portraits/men/1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Denise Nedry",
+        "message": "replied to Anna Szrand",
+        "time": "Last Wednesday at 9:42 am",
+        "image": "https://randomuser.me/api/portraits/women/2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "John Hammond",
+        "message": "attached a file to Isla Nublar SOC2 compliance report",
+        "time": "Last Wednesday at 9:42 am",
+        "image": "https://randomuser.me/api/portraits/men/3.jpg",
+        "attachment": {
+          "name": "EY_review.pdf",
+          "size": "2mb"
+        }
+      }
+    ]
+  }

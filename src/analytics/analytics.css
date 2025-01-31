@@ -1,0 +1,897 @@
+.analytics-container {
+  padding: 24px;
+  /* background: #5d89b5; */
+  /* width: calc(100% - 48px); */
+  box-sizing: border-box;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.analytics-header {
+  margin-bottom: 24px;
+}
+
+.analytics-header h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Common Card Styles */
+.dashboard-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  height: auto;
+  min-height: fit-content;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card-header h3 {
+  font-size: 16px;
+  color: #111827;
+  font-weight: 600;
+  margin: 0;
+}
+
+.card-filters {
+  display: flex;
+  gap: 12px;
+}
+
+.filter-select {
+  padding: 6px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  color: #374151;
+  background: white;
+  font-size: 14px;
+}
+
+/* Table Styles */
+.table-header {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1fr 1fr;
+  padding: 12px 16px;
+  background: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+  font-weight: 500;
+  color: #374151;
+}
+
+.table-body {
+  max-height: 350px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+/* Recent Contacts */
+.contact-row {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1fr 1fr;
+  padding: 12px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  align-items: center;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.contact-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Charts */
+.chart-container {
+  height: 250px;
+  position: relative;
+  margin-top: 16px;
+}
+
+/* Activities */
+.activities-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.activity-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: white;
+}
+
+.activity-content {
+  flex: 1;
+}
+
+.activity-content h4 {
+  color: #111827;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.activity-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.due-date {
+  color: #6b7280;
+  font-size: 13px;
+}
+
+/* Activity Status Styles */
+.activity-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.status-badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-badge.inprogress {
+  background: #dbeafe;
+  color: #2563eb;
+}
+
+.status-badge.completed {
+  background: #d1fae5;
+  color: #059669;
+}
+
+.status-badge.pending {
+  background: #fef3c7;
+  color: #d97706;
+}
+
+.status-badge.cancelled {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+/* Expand Button Styles */
+.expand-btn {
+  background: transparent;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+  color: #6b7280;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.expand-btn:hover {
+  color: #374151;
+  background: #f3f4f6;
+  border-radius: 4px;
+}
+
+.expand-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Activity Type Badges */
+.activity-type {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.activity-type svg {
+  width: 14px;
+  height: 14px;
+}
+
+.activity-type.meeting {
+  background: #e0e7ff;
+  color: #4f46e5;
+}
+
+.activity-type.email {
+  background: #fef3c7;
+  color: #d97706;
+}
+
+.activity-type.task {
+  background: #dbeafe;
+  color: #2563eb;
+}
+
+.activity-type.call {
+  background: #d1fae5;
+  color: #059669;
+}
+
+/* Recently Added Companies */
+.company-row {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr 1fr;
+}
+
+.status.announced {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.status.running {
+  background: #dbeafe;
+  color: #2563eb;
+}
+
+.status.paused {
+  background: #fef3c7;
+  color: #d97706;
+}
+
+.status.success {
+  background: #d1fae5;
+  color: #059669;
+}
+
+/* Buttons */
+.add-btn, 
+.add-activity-btn,
+.add-pipeline-btn,
+.add-company-btn {
+  background: #dc2626;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.add-btn:hover, 
+.add-activity-btn:hover,
+.add-pipeline-btn:hover,
+.add-company-btn:hover {
+  background: #b91c1c;
+}
+
+/* Sidebar */
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.sidebar-content {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 100vh;
+  background: white;
+  z-index: 1001;
+  padding: 24px;
+  box-shadow: -4px 0 12px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+/* Form Elements */
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #374151;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .analytics-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .sidebar-content {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .analytics-container {
+    padding: 16px;
+  }
+  
+  .analytics-grid {
+    gap: 16px;
+  }
+  
+  .stats-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .table-header,
+  .contact-row,
+  .company-row {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .contact-phone,
+  .contact-date,
+  .company-phone,
+  .company-date {
+    display: none;
+  }
+}
+
+/* Recently Created Campaign Styles */
+.campaign-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.campaign-item {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 10px;
+  min-width: 0;
+}
+
+.campaign-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.campaign-title h4 {
+  color: #111827;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 0 4px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.campaign-type {
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.campaign-status {
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.campaign-status.announced {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.campaign-status.running {
+  background: #dbeafe;
+  color: #2563eb;
+}
+
+.campaign-status.paused {
+  background: #fef3c7;
+  color: #d97706;
+}
+
+.campaign-status.success {
+  background: #d1fae5;
+  color: #059669;
+}
+
+.campaign-stats {
+  padding: 8px;
+  margin: 8px 0;
+}
+
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}
+
+.stat-item {
+  text-align: center;
+  min-width: 0;
+  padding: 0 4px;
+}
+
+.stat-label {
+  color: #6b7280;
+  font-size: 11px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.stat-value {
+  color: #111827;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.campaign-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.campaign-due-date {
+  color: #6b7280;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.campaign-due-date svg {
+  width: 16px;
+  height: 16px;
+}
+
+.campaign-assignees {
+  display: flex;
+  align-items: center;
+}
+
+.assignee-avatars {
+  display: flex;
+  align-items: center;
+}
+
+.assignee-avatars img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-left: -8px;
+}
+
+.assignee-avatars img:first-child {
+  margin-left: 0;
+}
+
+.assignee-count {
+  margin-left: 8px;
+  background: #f3f4f6;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+/* Add Pipeline Button */
+.add-pipeline-btn {
+  background: #dc2626;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.2s;
+}
+
+.add-pipeline-btn:hover {
+  background: #b91c1c;
+}
+
+.add-pipeline-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .stats-row {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .stats-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .campaign-footer {
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .campaign-assignees {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-row {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-item {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .stat-label {
+    margin-bottom: 0;
+  }
+}
+
+/* Recently Created Contacts Styles */
+.contacts-card {
+  background: linear-gradient(to right, #4f46e5, #6366f1) !important;
+  color: white;
+  padding: 0;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.contacts-card .card-header {
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 0;
+}
+
+.contacts-card .card-header h3 {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contacts-card .card-header h3 svg {
+  width: 18px;
+  height: 18px;
+  color: #6b7280;
+}
+
+.contacts-card .filter-select {
+  padding: 6px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  color: white;
+  font-size: 13px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.contacts-card .table-header {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1fr 1fr;
+  padding: 12px 20px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+  font-weight: 500;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.contacts-card .contact-row {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1fr 1fr;
+  padding: 12px 20px;
+  border-bottom: 1px solid #e5e7eb;
+  align-items: center;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.contact-info img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-name {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.contact-role {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+}
+
+.contact-email, 
+.contact-phone {
+  color: white;
+  font-size: 14px;
+}
+
+.contact-date {
+  color: #6b7280;
+  font-size: 13px;
+}
+
+/* Deals By Stage Styles */
+.deals-card {
+  background: linear-gradient(to right, #0ea5e9, #38bdf8) !important;
+  color: white;
+  padding: 0;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.deals-card .card-header {
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 0;
+}
+
+.deals-card .card-header h3 {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.deals-card .card-header h3 svg {
+  width: 18px;
+  height: 18px;
+  color: #6b7280;
+}
+
+.deals-card .filter-select {
+  padding: 6px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  color: white;
+  font-size: 13px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.deals-card .card-filters {
+  display: flex;
+  gap: 8px;
+}
+
+.deals-card .chart-container {
+  padding: 20px;
+  height: 300px;
+}
+
+/* Chart colors for Deals By Stage */
+.deals-card .chart-container canvas {
+  --chart-color: #10b981;
+}
+
+/* Hover states */
+.contacts-card .contact-row:hover {
+  background: #f9fafb;
+}
+
+.filter-select:hover {
+  border-color: #9ca3af;
+}
+
+/* Scrollbar styling */
+.contacts-card .table-body {
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.contacts-card .table-body::-webkit-scrollbar {
+  width: 4px;
+}
+
+.contacts-card .table-body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.contacts-card .table-body::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 2px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .contacts-card .table-header,
+  .contacts-card .contact-row {
+    grid-template-columns: 2fr 1.5fr;
+  }
+
+  .contacts-card .contact-phone,
+  .contacts-card .contact-date {
+    display: none;
+  }
+}
+
+/* Border radius for the two cards */
+.contacts-card,
+.deals-card {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* White background for all grid items except contacts and deals cards */
+.grid-item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+/* Keep the specific backgrounds for contacts and deals cards */
+.contacts-card,
+.deals-card {
+  background: linear-gradient(to right, #4f46e5, #6366f1) !important;
+  padding: 0;
+}
+
+.deals-card {
+  background: linear-gradient(to right, #0ea5e9, #38bdf8) !important;
+}
+
+/* Recently Added Companies table styles */
+.companies-table {
+  width: 100%;
+}
+
+.companies-table .table-header {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1fr 1fr;
+  padding: 12px 20px;
+  background: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+  color: #6b7280;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.companies-table .company-row {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1fr 1fr;
+  padding: 12px 20px;
+  border-bottom: 1px solid #e5e7eb;
+  align-items: center;
+}
+
+.company-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.company-info img {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.company-name {
+  color: #111827;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.company-role {
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.company-email {
+  color: #374151;
+  font-size: 14px;
+}
+
+.company-date {
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.companies-table .table-body {
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.company-row:hover {
+  background: #f9fafb;
+}

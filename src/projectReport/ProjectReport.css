@@ -1,0 +1,96 @@
+.project-report {
+  padding: 24px;
+  background: #f9fafb;
+  min-height: 100vh;
+}
+
+.project-report-header {
+  margin-bottom: 24px;
+}
+
+.project-report-header h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0;
+}
+
+.report-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.charts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.chart-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  height: 400px;
+  overflow: hidden;
+}
+
+.chart-card > div {
+  height: 100%;
+  padding: 20px;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.chart-header h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0;
+}
+
+.date-range {
+  color: #6B7280;
+  font-size: 14px;
+}
+
+.chart-wrapper {
+  height: calc(100% - 60px);
+  position: relative;
+}
+
+.chart-wrapper canvas {
+  max-height: 100% !important;
+  width: 100% !important;
+}
+
+.list-section {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .charts-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .project-report {
+    padding: 16px;
+  }
+  
+  .chart-card {
+    height: 350px;
+  }
+}
+
+/* Additional styles for consistent borders */
+.chart-card, .list-section {
+  border: 1px solid #e5e7eb;
+}

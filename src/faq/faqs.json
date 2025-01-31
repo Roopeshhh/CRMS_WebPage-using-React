@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "question": "How can I book a service?",
+    "category": "Services",
+    "answer": "You can book a service by contacting us through our website or by calling our helpline.",
+    "createdAt": "25 Sep 2023, 01:22 pm",
+    "status": "Active",
+    "starred": false
+  },
+  {
+    "id": 2,
+    "question": "What payment methods do you accept?",
+    "category": "Payments",
+    "answer": "We accept credit cards, debit cards, and PayPal.",
+    "createdAt": "29 Sep 2023, 08:12 am",
+    "status": "Active",
+    "starred": true
+  },
+  {
+    "id": 3,
+    "question": "Can I cancel my booking?",
+    "category": "Services",
+    "answer": "Yes, you can cancel your booking 24 hours before the scheduled service time.",
+    "createdAt": "02 Oct 2023, 02:32 pm",
+    "status": "Active",
+    "starred": false
+  },
+  {
+    "id": 4,
+    "question": "How do I reset my password?",
+    "category": "Account",
+    "answer": "Go to the login page, click 'Forgot Password,' and follow the instructions.",
+    "createdAt": "11 Oct 2023, 02:32 pm",
+    "status": "Active",
+    "starred": false
+  },
+  {
+    "id": 5,
+    "question": "Do you offer international shipping?",
+    "category": "Shipping",
+    "answer": "Yes, we offer international shipping to selected countries.",
+    "createdAt": "04 Nov 2023, 04:22 pm",
+    "status": "Active",
+    "starred": true
+  },
+  {
+    "id": 6,
+    "question": "How can I track my order?",
+    "category": "Orders",
+    "answer": "You can track your order through the 'Order History' section in your account.",
+    "createdAt": "16 Nov 2023, 10:51 pm",
+    "status": "Active",
+    "starred": false
+  },
+  {
+    "id": 7,
+    "question": "What is your refund policy?",
+    "category": "Refunds",
+    "answer": "Refunds are processed within 7-10 business days after approval.",
+    "createdAt": "25 Nov 2023, 03:43 pm",
+    "status": "Active",
+    "starred": true
+  },
+  {
+    "id": 8,
+    "question": "Do you provide technical support?",
+    "category": "Support",
+    "answer": "Yes, technical support is available 24/7 for all our customers.",
+    "createdAt": "07 Dec 2023, 11:22 am",
+    "status": "Active",
+    "starred": false
+  },
+  {
+    "id": 9,
+    "question": "Can I update my contact details?",
+    "category": "Account",
+    "answer": "Yes, you can update your contact details in the 'Profile Settings' section.",
+    "createdAt": "15 Dec 2023, 08:17 am",
+    "status": "Active",
+    "starred": false
+  },
+  {
+    "id": 10,
+    "question": "What are your working hours?",
+    "category": "General",
+    "answer": "Our working hours are Monday to Friday, 9:00 am to 6:00 pm.",
+    "createdAt": "29 Dec 2023, 01:22 pm",
+    "status": "Active",
+    "starred": false
+  }
+]

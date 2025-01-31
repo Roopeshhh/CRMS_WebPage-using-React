@@ -1,0 +1,242 @@
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.add-estimation-sidebar {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 800px;
+  height: 100vh;
+  background-color: white;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+  transition: right 0.3s ease;
+  z-index: 1000;
+  overflow-y: auto;
+  padding: 24px;
+}
+
+.add-estimation-sidebar.open {
+  right: 0;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.sidebar-header h2 {
+  font-size: 1.5rem;
+  color: #111827;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #6b7280;
+}
+
+.form-row {
+  margin-bottom: 20px;
+}
+
+.two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-group {
+  position: relative;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #374151;
+}
+
+.required {
+  color: #dc2626;
+}
+
+.select-wrapper {
+  position: relative;
+  display: inline-block;
+  width: calc(100% - 100px);
+}
+
+.form-group select,
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.add-new-btn {
+  position: absolute;
+  right: 0;
+  top: 32px;
+  padding: 8px 12px;
+  background: none;
+  border: none;
+  color: #dc2626;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.items-section {
+  margin: 24px 0;
+}
+
+.items-section h3 {
+  margin-bottom: 16px;
+  color: #374151;
+}
+
+.items-table {
+  margin-bottom: 16px;
+  overflow-x: auto;
+}
+
+.items-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.items-table th {
+  background-color: #f9fafb;
+  padding: 12px;
+  text-align: left;
+  font-weight: 500;
+  color: #374151;
+}
+
+.items-table td {
+  padding: 8px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.items-table input {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+}
+
+.remove-item-btn {
+  background: none;
+  border: none;
+  color: #dc2626;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+.add-item-btn {
+  padding: 8px 16px;
+  background-color: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  color: #374151;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.calculation-section {
+  background-color: #f9fafb;
+  padding: 16px;
+  border-radius: 8px;
+  margin: 24px 0;
+}
+
+.calc-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.calc-row input {
+  width: 100px;
+  padding: 4px 8px;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  text-align: right;
+}
+
+.calc-row.total {
+  border-top: 1px solid #e5e7eb;
+  margin-top: 8px;
+  padding-top: 16px;
+  font-weight: 600;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.cancel-btn {
+  padding: 10px 20px;
+  background-color: #f3f4f6;
+  border: none;
+  border-radius: 6px;
+  color: #374151;
+  cursor: pointer;
+}
+
+.save-btn {
+  padding: 10px 20px;
+  background-color: #dc2626;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  background-color: #e5e7eb;
+}
+
+.save-btn:hover {
+  background-color: #b91c1c;
+}
+
+@media (max-width: 900px) {
+  .add-estimation-sidebar {
+    width: 100%;
+  }
+
+  .two-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .items-table {
+    overflow-x: auto;
+  }
+}

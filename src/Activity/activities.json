@@ -1,0 +1,100 @@
+{
+    "activities": [
+      {
+        "id": 1,
+        "title": "We scheduled a meeting for next week",
+        "type": "Meeting",
+        "dueDate": "25 Sep 2023, 12:12 pm",
+        "owner": "Hendry",
+        "createdAt": "22 Sep 2023, 10:14 am"
+      },
+      {
+        "id": 2,
+        "title": "Had conversation with Fred regarding task",
+        "type": "Calls",
+        "dueDate": "29 Sep 2023, 04:12 pm",
+        "owner": "Monty Beer",
+        "createdAt": "27 Sep 2023, 03:26 pm"
+      },
+      {
+        "id": 3,
+        "title": "Analysing latest time estimation for new project",
+        "type": "Email",
+        "dueDate": "11 Oct 2023, 05:00 pm",
+        "owner": "Bradlke",
+        "createdAt": "03 Oct 2023, 03:53 pm"
+      },
+      {
+        "id": 4,
+        "title": "Store and manage contact data",
+        "type": "Task",
+        "dueDate": "19 Oct 2023, 02:35 pm",
+        "owner": "Swaniawski",
+        "createdAt": "14 Oct 2023, 01:25 pm"
+      },
+      {
+        "id": 5,
+        "title": "Will have a meeting before project start",
+        "type": "Meeting",
+        "dueDate": "27 Oct 2023, 12:30 pm",
+        "owner": "Sally",
+        "createdAt": "21 Oct 2023, 03:00 pm"
+      },
+      {
+        "id": 6,
+        "title": "Review project timeline",
+        "type": "Task",
+        "dueDate": "30 Oct 2023, 03:00 pm",
+        "owner": "John",
+        "createdAt": "25 Oct 2023, 09:00 am"
+      },
+      {
+        "id": 7,
+        "title": "Client feedback discussion",
+        "type": "Calls",
+        "dueDate": "01 Nov 2023, 02:00 pm",
+        "owner": "Emma",
+        "createdAt": "28 Oct 2023, 11:30 am"
+      },
+      {
+        "id": 8,
+        "title": "Send project proposal",
+        "type": "Email",
+        "dueDate": "03 Nov 2023, 05:00 pm",
+        "owner": "Michael",
+        "createdAt": "30 Oct 2023, 04:15 pm"
+      },
+      {
+        "id": 9,
+        "title": "Team performance review",
+        "type": "Meeting",
+        "dueDate": "05 Nov 2023, 10:00 am",
+        "owner": "Sarah",
+        "createdAt": "01 Nov 2023, 02:45 pm"
+      },
+      {
+        "id": 10,
+        "title": "Update documentation",
+        "type": "Task",
+        "dueDate": "07 Nov 2023, 04:30 pm",
+        "owner": "David",
+        "createdAt": "03 Nov 2023, 09:20 am"
+      },
+      {
+        "id": 11,
+        "title": "Client presentation preparation",
+        "type": "Task",
+        "dueDate": "09 Nov 2023, 11:00 am",
+        "owner": "Lisa",
+        "createdAt": "05 Nov 2023, 03:40 pm"
+      },
+      {
+        "id": 12,
+        "title": "Budget review meeting",
+        "type": "Meeting",
+        "dueDate": "11 Nov 2023, 02:00 pm",
+        "owner": "Robert",
+        "createdAt": "07 Nov 2023, 10:15 am"
+      }
+    ]
+  }

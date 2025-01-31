@@ -1,0 +1,324 @@
+{
+  "estimations": [
+    {
+      "id": "#274738",
+      "client": {
+        "name": "NovaWave LLC",
+        "logo": "/client-logos/novawave.png"
+      },
+      "amount": "$2,15,000",
+      "project": {
+        "name": "Truelysell",
+        "icon": "/project-icons/truelysell.png"
+      },
+      "date": "15 Oct 2023",
+      "expiryDate": "25 Sep 2023",
+      "estimatedBy": {
+        "name": "Darlee Robertson",
+        "role": "Facility Manager",
+        "avatar": "/avatars/darlee.png"
+      },
+      "status": "Draft"
+    },
+    {
+      "id": "#274737",
+      "client": {
+        "name": "BlueSky Industries",
+        "logo": "/client-logos/bluesky.png"
+      },
+      "amount": "$1,45,000",
+      "project": {
+        "name": "Dreamschat",
+        "icon": "/project-icons/dreamschat.png"
+      },
+      "date": "19 Oct 2023",
+      "expiryDate": "10 Sep 2028",
+      "estimatedBy": {
+        "name": "Sharon Roy",
+        "role": "Installer",
+        "avatar": "/avatars/sharon.png"
+      },
+      "status": "Declined"
+    },
+    {
+        "id": "#274738",
+        "client": {
+          "name": "NovaWave LLC",
+          "logo": "/client-logos/novawave.png"
+        },
+        "amount": "$2,15,000",
+        "project": {
+          "name": "Truelysell",
+          "icon": "/project-icons/truelysell.png"
+        },
+        "date": "15 Oct 2023",
+        "expiryDate": "25 Sep 2023",
+        "estimatedBy": {
+          "name": "Darlee Robertson",
+          "role": "Facility Manager",
+          "avatar": "/avatars/darlee.png"
+        },
+        "status": "Draft"
+      },
+      {
+        "id": "#274737",
+        "client": {
+          "name": "BlueSky Industries",
+          "logo": "/client-logos/bluesky.png"
+        },
+        "amount": "$1,45,000",
+        "project": {
+          "name": "Dreamschat",
+          "icon": "/project-icons/dreamschat.png"
+        },
+        "date": "19 Oct 2023",
+        "expiryDate": "10 Sep 2028",
+        "estimatedBy": {
+          "name": "Sharon Roy",
+          "role": "Installer",
+          "avatar": "/avatars/sharon.png"
+        },
+        "status": "Declined"
+      },
+      {
+        "id": "#274738",
+        "client": {
+          "name": "NovaWave LLC",
+          "logo": "/client-logos/novawave.png"
+        },
+        "amount": "$2,15,000",
+        "project": {
+          "name": "Truelysell",
+          "icon": "/project-icons/truelysell.png"
+        },
+        "date": "15 Oct 2023",
+        "expiryDate": "25 Sep 2023",
+        "estimatedBy": {
+          "name": "Darlee Robertson",
+          "role": "Facility Manager",
+          "avatar": "/avatars/darlee.png"
+        },
+        "status": "Sent"
+      },
+      {
+        "id": "#274737",
+        "client": {
+          "name": "BlueSky Industries",
+          "logo": "/client-logos/bluesky.png"
+        },
+        "amount": "$1,45,000",
+        "project": {
+          "name": "Dreamschat",
+          "icon": "/project-icons/dreamschat.png"
+        },
+        "date": "19 Oct 2023",
+        "expiryDate": "10 Sep 2028",
+        "estimatedBy": {
+          "name": "Sharon Roy",
+          "role": "Installer",
+          "avatar": "/avatars/sharon.png"
+        },
+        "status": "Accepted"
+      },
+      {
+        "id": "#274738",
+        "client": {
+          "name": "NovaWave LLC",
+          "logo": "/client-logos/novawave.png"
+        },
+        "amount": "$2,15,000",
+        "project": {
+          "name": "Truelysell",
+          "icon": "/project-icons/truelysell.png"
+        },
+        "date": "15 Oct 2023",
+        "expiryDate": "25 Sep 2023",
+        "estimatedBy": {
+          "name": "Darlee Robertson",
+          "role": "Facility Manager",
+          "avatar": "/avatars/darlee.png"
+        },
+        "status": "Declined"
+      },
+      {
+        "id": "#274737",
+        "client": {
+          "name": "BlueSky Industries",
+          "logo": "/client-logos/bluesky.png"
+        },
+        "amount": "$1,45,000",
+        "project": {
+          "name": "Dreamschat",
+          "icon": "/project-icons/dreamschat.png"
+        },
+        "date": "19 Oct 2023",
+        "expiryDate": "10 Sep 2028",
+        "estimatedBy": {
+          "name": "Sharon Roy",
+          "role": "Installer",
+          "avatar": "/avatars/sharon.png"
+        },
+        "status": "Declined"
+      },
+      {
+        "id": "#274738",
+        "client": {
+          "name": "NovaWave LLC",
+          "logo": "/client-logos/novawave.png"
+        },
+        "amount": "$2,15,000",
+        "project": {
+          "name": "Truelysell",
+          "icon": "/project-icons/truelysell.png"
+        },
+        "date": "15 Oct 2023",
+        "expiryDate": "25 Sep 2023",
+        "estimatedBy": {
+          "name": "Darlee Robertson",
+          "role": "Facility Manager",
+          "avatar": "/avatars/darlee.png"
+        },
+        "status": "Sent"
+      },
+      {
+        "id": "#274737",
+        "client": {
+          "name": "BlueSky Industries",
+          "logo": "/client-logos/bluesky.png"
+        },
+        "amount": "$1,45,000",
+        "project": {
+          "name": "Dreamschat",
+          "icon": "/project-icons/dreamschat.png"
+        },
+        "date": "19 Oct 2023",
+        "expiryDate": "10 Sep 2028",
+        "estimatedBy": {
+          "name": "Sharon Roy",
+          "role": "Installer",
+          "avatar": "/avatars/sharon.png"
+        },
+        "status": "Draft"
+      },
+      {
+        "id": "#274738",
+        "client": {
+          "name": "NovaWave LLC",
+          "logo": "/client-logos/novawave.png"
+        },
+        "amount": "$2,15,000",
+        "project": {
+          "name": "Truelysell",
+          "icon": "/project-icons/truelysell.png"
+        },
+        "date": "15 Oct 2023",
+        "expiryDate": "25 Sep 2023",
+        "estimatedBy": {
+          "name": "Darlee Robertson",
+          "role": "Facility Manager",
+          "avatar": "/avatars/darlee.png"
+        },
+        "status": "Draft"
+      },
+      {
+        "id": "#274737",
+        "client": {
+          "name": "BlueSky Industries",
+          "logo": "/client-logos/bluesky.png"
+        },
+        "amount": "$1,45,000",
+        "project": {
+          "name": "Dreamschat",
+          "icon": "/project-icons/dreamschat.png"
+        },
+        "date": "19 Oct 2023",
+        "expiryDate": "10 Sep 2028",
+        "estimatedBy": {
+          "name": "Sharon Roy",
+          "role": "Installer",
+          "avatar": "/avatars/sharon.png"
+        },
+        "status": "Accepted"
+      },
+      {
+        "id": "#274738",
+        "client": {
+          "name": "NovaWave LLC",
+          "logo": "/client-logos/novawave.png"
+        },
+        "amount": "$2,15,000",
+        "project": {
+          "name": "Truelysell",
+          "icon": "/project-icons/truelysell.png"
+        },
+        "date": "15 Oct 2023",
+        "expiryDate": "25 Sep 2023",
+        "estimatedBy": {
+          "name": "Darlee Robertson",
+          "role": "Facility Manager",
+          "avatar": "/avatars/darlee.png"
+        },
+        "status": "Sent"
+      },
+      {
+        "id": "#274737",
+        "client": {
+          "name": "BlueSky Industries",
+          "logo": "/client-logos/bluesky.png"
+        },
+        "amount": "$1,45,000",
+        "project": {
+          "name": "Dreamschat",
+          "icon": "/project-icons/dreamschat.png"
+        },
+        "date": "19 Oct 2023",
+        "expiryDate": "10 Sep 2028",
+        "estimatedBy": {
+          "name": "Sharon Roy",
+          "role": "Installer",
+          "avatar": "/avatars/sharon.png"
+        },
+        "status": "Accepted"
+      },
+      {
+        "id": "#274738",
+        "client": {
+          "name": "NovaWave LLC",
+          "logo": "/client-logos/novawave.png"
+        },
+        "amount": "$2,15,000",
+        "project": {
+          "name": "Truelysell",
+          "icon": "/project-icons/truelysell.png"
+        },
+        "date": "15 Oct 2023",
+        "expiryDate": "25 Sep 2023",
+        "estimatedBy": {
+          "name": "Darlee Robertson",
+          "role": "Facility Manager",
+          "avatar": "/avatars/darlee.png"
+        },
+        "status": "Sent"
+      },
+      {
+        "id": "#274737",
+        "client": {
+          "name": "BlueSky Industries",
+          "logo": "/client-logos/bluesky.png"
+        },
+        "amount": "$1,45,000",
+        "project": {
+          "name": "Dreamschat",
+          "icon": "/project-icons/dreamschat.png"
+        },
+        "date": "19 Oct 2023",
+        "expiryDate": "10 Sep 2028",
+        "estimatedBy": {
+          "name": "Sharon Roy",
+          "role": "Installer",
+          "avatar": "/avatars/sharon.png"
+        },
+        "status": "Accepted"
+      }
+  ]
+}

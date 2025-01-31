@@ -1,0 +1,82 @@
+/* Container layout */
+.settings-page-container {
+    display: flex;
+    padding: 20px;
+    background: #f9f9f9;
+    height: 100vh;
+  }
+  
+  /* Left Sidebar */
+  .settings-sidebar {
+    width: 250px;
+    background: #fff;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .settings-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .settings-sidebar li {
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #555;
+    font-weight: 500;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .settings-sidebar li:hover {
+    background: #007bff;
+    color: #fff;
+  }
+  
+  .settings-sidebar .active {
+    background: #007bff;
+    color: #fff;
+  }
+  
+  /* Main Content */
+  .settings-main-content {
+    flex: 1;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    margin-left: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Top Navigation Tabs */
+  .settings-tabs {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .settings-tabs button {
+    padding: 10px 15px;
+    border: none;
+    background: #f0f0f0;
+    color: #555;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .settings-tabs .active-tab {
+    background: #007bff;
+    color: #fff;
+  }
+  
+  .settings-tabs button:hover {
+    background: #007bff;
+    color: #fff;
+  }
+  
+  /* Other styles remain the same as previous */
+  

@@ -1,0 +1,125 @@
+.tasks-wrapper {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.tasks-controls {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.left-controls {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.search-box {
+  position: relative;
+  width: 250px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 8px 32px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.btn-add-task {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.control-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 12px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  background: white;
+}
+
+.task-drag {
+  color: #999;
+  cursor: move;
+}
+
+.star-icon {
+  color: #ffc107;
+  cursor: pointer;
+}
+
+.task-content {
+  flex: 1;
+}
+
+.task-tags {
+  display: flex;
+  gap: 8px;
+  margin-top: 5px;
+}
+
+.tag {
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.tag.calls {
+  background-color: #e3fcef;
+  color: #00875a;
+}
+
+.tag.email {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.tag.task {
+  background-color: #cfe2ff;
+  color: #0043ce;
+}
+
+.tag.pending {
+  background-color: #f8d7da;
+  color: #dc3545;
+}
+
+.tag.inprogress {
+  background-color: #cce5ff;
+  color: #004085;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.count {
+  background-color: #6c5ce7;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 14px;
+  margin-left: 8px;
+}

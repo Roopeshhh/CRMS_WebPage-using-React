@@ -1,0 +1,255 @@
+.projects-wrapper {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .projects-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .projects-header h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .badge {
+    background-color: #6c5ce7;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  .search-export-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .search-box {
+    position: relative;
+    width: 300px;
+  }
+  
+  .search-box input {
+    width: 100%;
+    padding: 8px 32px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn-export, .btn-add {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-export {
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  .btn-add {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .controls-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .left-controls {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .control-btn {
+    padding: 8px 16px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .table-container {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+  }
+  
+  .priority {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+  }
+  
+  .priority-high {
+    background-color: #ffe4e4;
+    color: #dc3545;
+  }
+  
+  .priority-medium {
+    background-color: #fff3cd;
+    color: #ffc107;
+  }
+  
+  .priority-low {
+    background-color: #d4edda;
+    color: #28a745;
+  }
+  
+  .status {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+  }
+  
+  .status-active {
+    background-color: #d4edda;
+    color: #28a745;
+  }
+  
+  .status-inactive {
+    background-color: #ffe4e4;
+    color: #dc3545;
+  }
+  
+  .pipeline-stage {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .stage-indicator {
+    width: 80px;
+    height: 4px;
+    background-color: #6c5ce7;
+    border-radius: 2px;
+  }
+  
+  .pagination-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .entries-selector {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .entries-selector select {
+    padding: 4px 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .pagination-controls {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  .page-btn {
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .page-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .page-number {
+    padding: 6px 12px;
+    border-radius: 4px;
+  }
+  
+  .page-number.active {
+    background-color: #6c5ce7;
+    color: white;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 4px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .action-icon {
+    cursor: pointer;
+    color: #666;
+  }
+  
+  .star {
+    color: #ffc107;
+    cursor: pointer;
+  }

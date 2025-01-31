@@ -1,0 +1,173 @@
+/* Main Layout */
+.app {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+/* Main Container */
+.main-container {
+  display: flex;
+  width: 100%;
+  margin-top: 60px; /* Height of navbar */
+}
+
+/* Sidebar Styling */
+.sidebar {
+  width: 260px;
+  min-width: 260px;
+  background: white;
+  border-right: 1px solid #e5e7eb;
+  height: calc(100vh - 60px);
+  position: fixed;
+  left: 0;
+  overflow-y: auto;
+}
+
+/* Content Area */
+.content {
+  flex: 1;
+  padding: 20px 24px;
+  margin-left: 260px; /* Width of sidebar */
+  background: #f9fafb;
+  min-height: calc(100vh - 60px);
+}
+
+/* Header Section in Content */
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.content-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.date-picker {
+  padding: 8px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  background: white;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* Card Styling */
+.card {
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+/* Table Styling */
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.table th {
+  background: #f9fafb;
+  padding: 12px 16px;
+  font-weight: 500;
+  color: #6b7280;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  color: #111827;
+}
+
+/* Status Badges */
+.status-badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-badge.won {
+  background: #dcfce7;
+  color: #059669;
+}
+
+.status-badge.lost {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+/* Chart Container */
+.chart-container {
+  height: 300px;
+  margin-top: 20px;
+}
+
+/* Auth Layout */
+.auth-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #f9fafb;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .sidebar {
+    width: 200px;
+    min-width: 200px;
+  }
+  
+  .content {
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  .content {
+    margin-left: 0;
+  }
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background: #1f2937;
+  color: #f9fafb;
+}
+
+.dark-mode .sidebar,
+.dark-mode .card {
+  background: #111827;
+  border-color: #374151;
+}
+
+.dark-mode .table th {
+  background: #1f2937;
+  color: #9ca3af;
+}
+
+.dark-mode .table td {
+  color: #f9fafb;
+}

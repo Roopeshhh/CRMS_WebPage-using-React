@@ -1,0 +1,244 @@
+{
+  "invoices": [
+    {
+      "id": "#1254058",
+      "client": {
+        "name": "NovaWave LLC",
+        "logo": "https://ui-avatars.com/api/?name=NW&background=random"
+      },
+      "project": {
+        "name": "Truelysell",
+        "icon": "🚀"
+      },
+      "dueDate": "21 May 2024",
+      "amount": "$2,15,000",
+      "paidAmount": "$2,15,000",
+      "balanceAmount": "$0",
+      "status": "Partially Paid"
+    },
+    {
+      "id": "#1254057",
+      "client": {
+        "name": "BlueSky Industries",
+        "logo": "https://ui-avatars.com/api/?name=BS&background=random"
+      },
+      "project": {
+        "name": "Dreamschat",
+        "icon": "💬"
+      },
+      "dueDate": "19 Oct 2023",
+      "amount": "$1,45,000",
+      "paidAmount": "$1,45,000",
+      "balanceAmount": "$0",
+      "status": "Paid"
+    },
+    {
+      "id": "#1254056",
+      "client": {
+        "name": "Silver Hawk",
+        "logo": "https://ui-avatars.com/api/?name=SH&background=random"
+      },
+      "project": {
+        "name": "Truelysell",
+        "icon": "🚀"
+      },
+      "dueDate": "24 Oct 2023",
+      "amount": "$2,15,000",
+      "paidAmount": "$1,00,000",
+      "balanceAmount": "$1,15,000",
+      "status": "Partially Paid"
+    },
+    {
+      "id": "#1254058",
+      "client": {
+        "name": "NovaWave LLC",
+        "logo": "https://ui-avatars.com/api/?name=NW&background=random"
+      },
+      "project": {
+        "name": "Truelysell",
+        "icon": "🚀"
+      },
+      "dueDate": "21 May 2024",
+      "amount": "$2,15,000",
+      "paidAmount": "$2,15,000",
+      "balanceAmount": "$0",
+      "status": "Unpaid"
+    },
+    {
+      "id": "#1254057",
+      "client": {
+        "name": "BlueSky Industries",
+        "logo": "https://ui-avatars.com/api/?name=BS&background=random"
+      },
+      "project": {
+        "name": "Dreamschat",
+        "icon": "💬"
+      },
+      "dueDate": "19 Oct 2023",
+      "amount": "$1,45,000",
+      "paidAmount": "$1,45,000",
+      "balanceAmount": "$0",
+      "status": "Unpaid"
+    },
+    {
+      "id": "#1254056",
+      "client": {
+        "name": "Silver Hawk",
+        "logo": "https://ui-avatars.com/api/?name=SH&background=random"
+      },
+      "project": {
+        "name": "Truelysell",
+        "icon": "🚀"
+      },
+      "dueDate": "24 Oct 2023",
+      "amount": "$2,15,000",
+      "paidAmount": "$1,00,000",
+      "balanceAmount": "$1,15,000",
+      "status": "Partially Paid"
+    },
+    {
+      "id": "#1254058",
+      "client": {
+        "name": "NovaWave LLC",
+        "logo": "https://ui-avatars.com/api/?name=NW&background=random"
+      },
+      "project": {
+        "name": "Truelysell",
+        "icon": "🚀"
+      },
+      "dueDate": "21 May 2024",
+      "amount": "$2,15,000",
+      "paidAmount": "$2,15,000",
+      "balanceAmount": "$0",
+      "status": "Unpaid"
+    },
+    {
+      "id": "#1254057",
+      "client": {
+        "name": "BlueSky Industries",
+        "logo": "https://ui-avatars.com/api/?name=BS&background=random"
+      },
+      "project": {
+        "name": "Dreamschat",
+        "icon": "💬"
+      },
+      "dueDate": "19 Oct 2023",
+      "amount": "$1,45,000",
+      "paidAmount": "$1,45,000",
+      "balanceAmount": "$0",
+      "status": "Unpaid"
+    },
+    {
+      "id": "#1254056",
+      "client": {
+        "name": "Silver Hawk",
+        "logo": "https://ui-avatars.com/api/?name=SH&background=random"
+      },
+      "project": {
+        "name": "Truelysell",
+        "icon": "🚀"
+      },
+      "dueDate": "24 Oct 2023",
+      "amount": "$2,15,000",
+      "paidAmount": "$1,00,000",
+      "balanceAmount": "$1,15,000",
+      "status": "Partially Paid"
+    },
+    {
+      "id": "#1254058",
+      "client": {
+        "name": "NovaWave LLC",
+        "logo": "https://ui-avatars.com/api/?name=NW&background=random"
+      },
+      "project": {
+        "name": "Truelysell",
+        "icon": "🚀"
+      },
+      "dueDate": "21 May 2024",
+      "amount": "$2,15,000",
+      "paidAmount": "$2,15,000",
+      "balanceAmount": "$0",
+      "status": "UnPaid"
+    },
+    {
+      "id": "#1254057",
+      "client": {
+        "name": "BlueSky Industries",
+        "logo": "https://ui-avatars.com/api/?name=BS&background=random"
+      },
+      "project": {
+        "name": "Dreamschat",
+        "icon": "💬"
+      },
+      "dueDate": "19 Oct 2023",
+      "amount": "$1,45,000",
+      "paidAmount": "$1,45,000",
+      "balanceAmount": "$0",
+      "status": "UnPaid"
+    },
+    {
+      "id": "#1254056",
+      "client": {
+        "name": "Silver Hawk",
+        "logo": "https://ui-avatars.com/api/?name=SH&background=random"
+      },
+      "project": {
+        "name": "Truelysell",
+        "icon": "🚀"
+      },
+      "dueDate": "24 Oct 2023",
+      "amount": "$2,15,000",
+      "paidAmount": "$1,00,000",
+      "balanceAmount": "$1,15,000",
+      "status": "UnPaid"
+    },
+    {
+      "id": "#1254058",
+      "client": {
+        "name": "NovaWave LLC",
+        "logo": "https://ui-avatars.com/api/?name=NW&background=random"
+      },
+      "project": {
+        "name": "Truelysell",
+        "icon": "🚀"
+      },
+      "dueDate": "21 May 2024",
+      "amount": "$2,15,000",
+      "paidAmount": "$2,15,000",
+      "balanceAmount": "$0",
+      "status": "UnPaid"
+    },
+    {
+      "id": "#1254057",
+      "client": {
+        "name": "BlueSky Industries",
+        "logo": "https://ui-avatars.com/api/?name=BS&background=random"
+      },
+      "project": {
+        "name": "Dreamschat",
+        "icon": "💬"
+      },
+      "dueDate": "19 Oct 2023",
+      "amount": "$1,45,000",
+      "paidAmount": "$1,45,000",
+      "balanceAmount": "$0",
+      "status": "Paid"
+    },
+    {
+      "id": "#1254056",
+      "client": {
+        "name": "Silver Hawk",
+        "logo": "https://ui-avatars.com/api/?name=SH&background=random"
+      },
+      "project": {
+        "name": "Truelysell",
+        "icon": "🚀"
+      },
+      "dueDate": "24 Oct 2023",
+      "amount": "$2,15,000",
+      "paidAmount": "$1,00,000",
+      "balanceAmount": "$1,15,000",
+      "status": "Partially Paid"
+    }
+  ]
+}

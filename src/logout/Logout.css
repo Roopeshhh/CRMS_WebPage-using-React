@@ -1,0 +1,12 @@
+.input-group-text {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn-danger {
+  background-color: #ff0000;
+}
+
+.btn-danger:hover {
+  background-color: #cc0000;
+}

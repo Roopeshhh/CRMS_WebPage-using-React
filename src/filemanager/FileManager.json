@@ -1,0 +1,60 @@
+{
+    "files": [
+      {
+        "id": 1,
+        "name": "Digimed",
+        "type": "folder",
+        "lastModified": "Today 08:30 AM",
+        "modifiedBy": "Angel",
+        "size": "200 MB",
+        "owner": {
+          "name": "Nolan Christopher",
+          "avatar": "/avatars/nolan-c.jpg"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Estimation",
+        "type": "excel",
+        "lastModified": "Today 09:20 AM",
+        "size": "140 MB",
+        "owner": {
+          "name": "Nolan Harris",
+          "avatar": "/avatars/nolan-h.jpg"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Intro.pdf",
+        "type": "pdf",
+        "lastModified": "27 July 2023",
+        "size": "70 MB",
+        "owner": {
+          "name": "Me",
+          "avatar": "/avatars/me.jpg"
+        }
+      },
+      {
+        "id": 4,
+        "name": "Demoworrking.mp4",
+        "type": "video",
+        "lastModified": "24 July 2023 08:25 AM",
+        "size": "180 MB",
+        "owner": {
+          "name": "Daniel Byrne",
+          "avatar": "/avatars/daniel.jpg"
+        }
+      },
+      {
+        "id": 5,
+        "name": "voice.mp3",
+        "type": "audio",
+        "lastModified": "27 July 2023",
+        "size": "80 MB",
+        "owner": {
+          "name": "Henriques",
+          "avatar": "/avatars/henriques.jpg"
+        }
+      }
+    ]
+  }

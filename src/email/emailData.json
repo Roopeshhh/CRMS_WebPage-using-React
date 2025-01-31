@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "sender": "John Doe",
+    "subject": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "date": "13:14",
+    "starred": true
+  },
+  {
+    "id": 2,
+    "sender": "Envato Account",
+    "subject": "Important account security update from Envato",
+    "date": "8:42",
+    "starred": false
+  },
+  {
+    "id": 3,
+    "sender": "Twitter",
+    "subject": "HRMS Bootstrap Admin Template",
+    "date": "30 Nov",
+    "starred": false
+  },
+  {
+    "id": 4,
+    "sender": "Richard Parker",
+    "subject": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "date": "18 Sep",
+    "starred": true
+  },
+  {
+    "id": 5,
+    "sender": "John Smith",
+    "subject": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "date": "21 Aug",
+    "starred": false
+  },
+  {
+    "id": 5,
+    "sender": "John Smith",
+    "subject": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "date": "21 Aug",
+    "starred": false
+  },
+  {
+    "id": 5,
+    "sender": "John Smith",
+    "subject": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "date": "21 Aug",
+    "starred": false
+  },
+  {
+    "id": 5,
+    "sender": "John Smith",
+    "subject": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "date": "21 Aug",
+    "starred": false
+  },
+  {
+    "id": 5,
+    "sender": "John Smith",
+    "subject": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "date": "21 Aug",
+    "starred": false
+  }
+]

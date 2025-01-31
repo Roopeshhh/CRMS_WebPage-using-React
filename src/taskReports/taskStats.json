@@ -1,0 +1,92 @@
+{
+  "yearlyData": {
+    "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+    "data": [10000, 38000, 20000, 48000, 15000, 32000, 18000, 40000, 20000, 50000, 30000, 15000]
+  },
+  "typesData": {
+    "labels": ["Campaigns", "Google", "Referrals", "Paid Social"],
+    "data": [44, 55, 41, 17],
+    "colors": ["#2196F3", "#7352FF", "#DC2626", "#FFA000"]
+  },
+  "taskList": [
+    {
+      "id": 1,
+      "taskName": "Add a form to Update Task",
+      "assignedTo": {
+        "name": "Adrian Davies",
+        "avatar": "/path/to/avatar.jpg"
+      },
+      "priority": "High",
+      "dueDate": "25 Sep 2023",
+      "type": "Calls",
+      "status": "Inprogress",
+      "createdDate": "25 Sep 2023, 01:22 pm"
+    },
+    {
+      "id": 2,
+      "taskName": "Make all strokes thinner",
+      "assignedTo": {
+        "name": "Adrian Davies",
+        "avatar": "/path/to/avatar.jpg"
+      },
+      "priority": "Medium",
+      "dueDate": "29 Sep 2023",
+      "type": "Meeting",
+      "status": "Completed",
+      "createdDate": "29 Sep 2023, 04:15 pm"
+    },
+    {
+        "id": 1,
+        "taskName": "Add a form to Update Task",
+        "assignedTo": {
+          "name": "Adrian Davies",
+          "avatar": "/path/to/avatar.jpg"
+        },
+        "priority": "High",
+        "dueDate": "25 Sep 2023",
+        "type": "Calls",
+        "status": "Inprogress",
+        "createdDate": "25 Sep 2023, 01:22 pm"
+      },
+      {
+        "id": 2,
+        "taskName": "Make all strokes thinner",
+        "assignedTo": {
+          "name": "Adrian Davies",
+          "avatar": "/path/to/avatar.jpg"
+        },
+        "priority": "Medium",
+        "dueDate": "29 Sep 2023",
+        "type": "Meeting",
+        "status": "Completed",
+        "createdDate": "29 Sep 2023, 04:15 pm"
+      },
+      {
+        "id": 1,
+        "taskName": "Add a form to Update Task",
+        "assignedTo": {
+          "name": "Adrian Davies",
+          "avatar": "/path/to/avatar.jpg"
+        },
+        "priority": "High",
+        "dueDate": "25 Sep 2023",
+        "type": "Calls",
+        "status": "Inprogress",
+        "createdDate": "25 Sep 2023, 01:22 pm"
+      },
+      {
+        "id": 2,
+        "taskName": "Make all strokes thinner",
+        "assignedTo": {
+          "name": "Adrian Davies",
+          "avatar": "/path/to/avatar.jpg"
+        },
+        "priority": "Medium",
+        "dueDate": "29 Sep 2023",
+        "type": "Meeting",
+        "status": "Completed",
+        "createdDate": "29 Sep 2023, 04:15 pm"
+      }
+    
+  ]
+}

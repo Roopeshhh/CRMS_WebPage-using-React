@@ -1,0 +1,124 @@
+/* General Sidebar Styling */
+.new-sidebar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 500px; /* Increased width for more spacious layout */
+    height: 100%;
+    background-color: #ffffff; /* White background */
+    color: #333333; /* Dark text color */
+    display: none; /* Initially hidden */
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); /* Light shadow for sidebar */
+    overflow-y: auto; /* Added scroll to the sidebar */
+  }
+  
+  .new-sidebar.show {
+    display: block;
+    transform: translateX(0);
+  }
+  
+  .new-sidebar .sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .new-sidebar h5 {
+    color: #333333;
+  }
+  
+  .new-sidebar .btn-close {
+    background: transparent;
+    border: none;
+    color: #333333;
+    font-size: 20px;
+  }
+  
+  .new-sidebar form {
+    margin-top: 20px;
+  }
+  
+  .new-sidebar .form-label {
+    color: #333333;
+  }
+  
+  .new-sidebar .form-control,
+  .new-sidebar .form-select {
+    background-color: #f8f9fa; /* Light input background */
+    border: 1px solid #ced4da; /* Light border */
+    color: #495057;
+    padding: 12px; /* Added padding for better appearance */
+    width: 100%;
+    margin-bottom: 15px; /* Spacing between inputs */
+  }
+  
+  .new-sidebar .form-control:focus {
+    border-color: #80bdff; /* Highlight color on focus */
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+  }
+  
+  .new-sidebar .btn-group .btn {
+    margin: 5px;
+  }
+  
+  .new-sidebar .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .new-sidebar .btn-success,
+  .new-sidebar .btn-secondary {
+    width: 48%;
+  }
+  
+  .new-sidebar .d-flex {
+    margin-top: 20px;
+  }
+  
+  .new-sidebar .form-control,
+  .new-sidebar .form-select {
+    width: 100%; /* Ensure inputs are full-width */
+  }
+  
+  .new-sidebar .form-label {
+    font-weight: bold; /* Bold labels for better visibility */
+  }
+  
+  /* Gear Icon Styling */
+  .gear-icon {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    z-index: 1050;
+    transform: translateY(-50%);
+    background-color: #ffc107;
+    border-radius: 50%;
+    /* padding: 4px;  */
+  }
+  
+  .gear-icon button {
+    font-size: 24px; /* Reduced font size */
+    background-color: transparent;
+    border: none;
+    color: #333333;
+  }
+  
+  .gear-icon button:hover {
+    color: white;
+  }
+  
+  /* Sidebar Form Alignment */
+  .new-sidebar .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Button Styling */
+  .new-sidebar .btn-group {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  

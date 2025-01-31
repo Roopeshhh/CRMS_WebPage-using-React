@@ -1,0 +1,68 @@
+{
+  "tasks": {
+    "recent": [
+      {
+        "id": 1,
+        "title": "Add a form to Update Task",
+        "type": "Calls",
+        "status": "Pending",
+        "tags": ["Promotion"],
+        "date": "25 Oct 2023",
+        "assignee": {
+          "avatar": "path-to-avatar.jpg",
+          "name": "John Doe"
+        }
+      },
+      {
+        "id": 2,
+        "title": "Make all strokes thinner",
+        "type": "Email",
+        "status": "Pending",
+        "tags": ["Rejected", "Collab"],
+        "date": "25 Oct 2023",
+        "assignee": {
+          "avatar": "path-to-avatar.jpg",
+          "name": "Jane Smith"
+        }
+      },
+      {
+        "id": 3,
+        "title": "Update original content",
+        "type": "Calls",
+        "status": "Inprogress",
+        "tags": ["Promotion"],
+        "date": "25 Oct 2023",
+        "assignee": {
+          "avatar": "path-to-avatar.jpg",
+          "name": "Mike Johnson"
+        }
+      },
+      {
+        "id": 4,
+        "title": "Use only component colours",
+        "type": "Task",
+        "status": "Inprogress",
+        "tags": ["Collab", "Rated"],
+        "date": "25 Oct 2023",
+        "assignee": {
+          "avatar": "path-to-avatar.jpg",
+          "name": "Sarah Wilson"
+        }
+      }
+    ],
+    "yesterday": [
+      {
+        "id": 4,
+        "title": "Use only component colours",
+        "type": "Task",
+        "status": "Inprogress",
+        "tags": ["Collab", "Rated"],
+        "date": "25 Oct 2023",
+        "assignee": {
+          "avatar": "path-to-avatar.jpg",
+          "name": "Sarah Wilson"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "deals": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "company": {
+        "name": "TechCorp Inc",
+        "location": "San Francisco, USA"
+      },
+      "status": "Won",
+      "owner": "Sarah Johnson",
+      "tags": "Website Development",
+      "expectedCloseDate": "2024-03-15"
+    },
+    {
+      "id": 2,
+      "name": "Emma Wilson",
+      "company": {
+        "name": "Digital Solutions",
+        "location": "London, UK"
+      },
+      "status": "Negotiation",
+      "owner": "Mike Brown",
+      "tags": "Mobile App",
+      "expectedCloseDate": "2024-03-20"
+    },
+    {
+      "id": 3,
+      "name": "David Lee",
+      "company": {
+        "name": "Innovate Systems",
+        "location": "Toronto, Canada"
+      },
+      "status": "Won",
+      "owner": "Lisa Chen",
+      "tags": "Cloud Services",
+      "expectedCloseDate": "2024-03-25"
+    },
+    {
+      "id": 4,
+      "name": "Sophie Martin",
+      "company": {
+        "name": "Global Tech",
+        "location": "Paris, France"
+      },
+      "status": "Lost",
+      "owner": "Tom Wilson",
+      "tags": "Consulting",
+      "expectedCloseDate": "2024-03-30"
+    },
+    {
+      "id": 5,
+      "name": "Michael Brown",
+      "company": {
+        "name": "Smart Solutions",
+        "location": "Sydney, Australia"
+      },
+      "status": "Won",
+      "owner": "Emily White",
+      "tags": "AI Development",
+      "expectedCloseDate": "2024-04-05"
+    },
+    {
+      "id": 1,
+      "name": "John Smith",
+      "company": {
+        "name": "TechCorp Inc",
+        "location": "San Francisco, USA"
+      },
+      "status": "Won",
+      "owner": "Sarah Johnson",
+      "tags": "Website Development",
+      "expectedCloseDate": "2024-03-15"
+    },
+    {
+      "id": 2,
+      "name": "Emma Wilson",
+      "company": {
+        "name": "Digital Solutions",
+        "location": "London, UK"
+      },
+      "status": "Negotiation",
+      "owner": "Mike Brown",
+      "tags": "Mobile App",
+      "expectedCloseDate": "2024-03-20"
+    },
+    {
+      "id": 3,
+      "name": "David Lee",
+      "company": {
+        "name": "Innovate Systems",
+        "location": "Toronto, Canada"
+      },
+      "status": "Won",
+      "owner": "Lisa Chen",
+      "tags": "Cloud Services",
+      "expectedCloseDate": "2024-03-25"
+    },
+    {
+      "id": 4,
+      "name": "Sophie Martin",
+      "company": {
+        "name": "Global Tech",
+        "location": "Paris, France"
+      },
+      "status": "Lost",
+      "owner": "Tom Wilson",
+      "tags": "Consulting",
+      "expectedCloseDate": "2024-03-30"
+    },
+    {
+      "id": 5,
+      "name": "Michael Brown",
+      "company": {
+        "name": "Smart Solutions",
+        "location": "Sydney, Australia"
+      },
+      "status": "Won",
+      "owner": "Emily White",
+      "tags": "AI Development",
+      "expectedCloseDate": "2024-04-05"
+    }
+  ]
+}

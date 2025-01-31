@@ -1,0 +1,112 @@
+{
+    "notes": [
+      {
+        "id": 1,
+        "title": "Plan a trip to another country",
+        "description": "Space, the final frontier. These are the voyages of the Starship...",
+        "priority": "low",
+        "category": "all",
+        "tag": "personal",
+        "assignee": {
+          "name": "Sarah Wilson",
+          "avatar": "https://randomuser.me/api/portraits/women/1.jpg"
+        }
+      },
+      {
+        "id": 2,
+        "title": "Improve touch typing",
+        "description": "Well, the way they make shows is, they make one show.",
+        "priority": "medium",
+        "category": "important",
+        "tag": "work",
+        "assignee": {
+          "name": "John Doe",
+          "avatar": "https://randomuser.me/api/portraits/men/1.jpg"
+        }
+      },
+      {
+        "id": 3,
+        "title": "Learn calligraphy",
+        "description": "Calligraphy, the art of beautiful handwriting. The term may derive...",
+        "priority": "high",
+        "category": "all",
+        "tag": "social",
+        "assignee": {
+          "name": "Lisa Smith",
+          "avatar": "https://randomuser.me/api/portraits/women/2.jpg"
+        }
+      },
+      {
+        "id": 1,
+        "title": "Plan a trip to another country",
+        "description": "Space, the final frontier. These are the voyages of the Starship...",
+        "priority": "low",
+        "category": "all",
+        "tag": "personal",
+        "assignee": {
+          "name": "Sarah Wilson",
+          "avatar": "https://randomuser.me/api/portraits/women/1.jpg"
+        }
+      },
+      {
+        "id": 2,
+        "title": "Improve touch typing",
+        "description": "Well, the way they make shows is, they make one show.",
+        "priority": "medium",
+        "category": "important",
+        "tag": "work",
+        "assignee": {
+          "name": "John Doe",
+          "avatar": "https://randomuser.me/api/portraits/men/1.jpg"
+        }
+      },
+      {
+        "id": 3,
+        "title": "Learn calligraphy",
+        "description": "Calligraphy, the art of beautiful handwriting. The term may derive...",
+        "priority": "high",
+        "category": "all",
+        "tag": "social",
+        "assignee": {
+          "name": "Lisa Smith",
+          "avatar": "https://randomuser.me/api/portraits/women/2.jpg"
+        }
+      },
+      {
+        "id": 1,
+        "title": "Plan a trip to another country",
+        "description": "Space, the final frontier. These are the voyages of the Starship...",
+        "priority": "low",
+        "category": "all",
+        "tag": "personal",
+        "assignee": {
+          "name": "Sarah Wilson",
+          "avatar": "https://randomuser.me/api/portraits/women/1.jpg"
+        }
+      },
+      {
+        "id": 2,
+        "title": "Improve touch typing",
+        "description": "Well, the way they make shows is, they make one show.",
+        "priority": "medium",
+        "category": "important",
+        "tag": "work",
+        "assignee": {
+          "name": "John Doe",
+          "avatar": "https://randomuser.me/api/portraits/men/1.jpg"
+        }
+      },
+      {
+        "id": 3,
+        "title": "Learn calligraphy",
+        "description": "Calligraphy, the art of beautiful handwriting. The term may derive...",
+        "priority": "high",
+        "category": "all",
+        "tag": "social",
+        "assignee": {
+          "name": "Lisa Smith",
+          "avatar": "https://randomuser.me/api/portraits/women/2.jpg"
+        }
+      }
+    ]
+  }

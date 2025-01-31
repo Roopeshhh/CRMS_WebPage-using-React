@@ -1,0 +1,118 @@
+/* src/components/Notes.css */
+.notes-container {
+    background-color: white;
+    min-height: 100vh;
+    margin-left: 20px;
+  }
+  
+  .notes-sidebar {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+  }
+  
+  .btn-add-note {
+    background-color: #ffa500;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+  }
+  
+  .btn-add-note:hover {
+    background-color: #ff9500;
+  }
+  
+  .notes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .note-card {
+    background-color: white;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .note-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .note-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  
+  .tag-personal { background-color: #e0f2fe; color: #0ea5e9; }
+  .tag-work { background-color: #f3e8ff; color: #a855f7; }
+  .tag-social { background-color: #fef9c3; color: #ca8a04; }
+
+  /* Notes.css */
+.notes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Shows 3 cards per row */
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.note-card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.note-card:hover {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.note-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.note-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.note-description {
+  color: #64748b;
+  font-size: 14px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.note-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+
+/* Responsive grid */
+@media (max-width: 1200px) {
+  .notes-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .notes-grid {
+    grid-template-columns: 1fr;
+  }
+}

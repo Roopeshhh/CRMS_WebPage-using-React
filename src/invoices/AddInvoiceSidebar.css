@@ -1,0 +1,238 @@
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.add-invoice-sidebar {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 800px;
+  height: 100vh;
+  background-color: white;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+  transition: right 0.3s ease;
+  z-index: 1000;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.add-invoice-sidebar.open {
+  right: 0;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #6b7280;
+}
+
+.form-row {
+  margin-bottom: 20px;
+}
+
+.two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-group {
+  position: relative;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #374151;
+}
+
+.required {
+  color: #dc2626;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.select-wrapper {
+  position: relative;
+  display: inline-block;
+  width: calc(100% - 100px);
+}
+
+.add-new-btn {
+  position: absolute;
+  right: 0;
+  top: 28px;
+  padding: 8px 12px;
+  background-color: transparent;
+  border: none;
+  color: #dc2626;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.invoice-items-table {
+  width: 100%;
+  margin-bottom: 20px;
+  overflow-x: auto;
+}
+
+.invoice-items-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.invoice-items-table th {
+  background-color: #f3f4f6;
+  padding: 12px;
+  text-align: left;
+  font-weight: 500;
+  color: #374151;
+}
+
+.invoice-items-table td {
+  padding: 8px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.invoice-items-table input,
+.invoice-items-table select {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.action-btn.success {
+  color: #16a34a;
+  padding: 4px 8px;
+}
+
+.invoice-summary {
+  margin-top: 20px;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 20px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  color: #374151;
+}
+
+.summary-row.total {
+  font-weight: 600;
+  border-top: 1px solid #e5e7eb;
+  margin-top: 8px;
+  padding-top: 16px;
+}
+
+.signature-upload {
+  border: 2px dashed #e5e7eb;
+  padding: 20px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.upload-btn {
+  background-color: #f3f4f6;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #374151;
+}
+
+.upload-btn:hover {
+  background-color: #e5e7eb;
+}
+
+.rich-text-editor {
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+}
+
+.editor-toolbar {
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.editor-toolbar button,
+.editor-toolbar select {
+  padding: 4px 8px;
+  background: none;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.editor-toolbar select {
+  width: 60px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 150px;
+  padding: 12px;
+  border: none;
+  resize: vertical;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.submit-btn:hover {
+  background-color: #b91c1c;
+}
+
+@media (max-width: 900px) {
+  .add-invoice-sidebar {
+    width: 100%;
+  }
+  
+  .invoice-items-table {
+    overflow-x: auto;
+  }
+  
+  .two-columns {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+} 

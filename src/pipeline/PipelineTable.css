@@ -1,0 +1,70 @@
+.pipeline-container {
+  background: #fff;
+  border-radius: 8px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6c757d;
+}
+
+.stage-indicator {
+  width: 100px;
+  height: 4px;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+
+.drawer {
+  position: fixed;
+  top: 0;
+  right: -400px;
+  width: 400px;
+  height: 100vh;
+  background: #fff;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+  transition: right 0.3s ease-in-out;
+  z-index: 1050;
+}
+
+.drawer.show {
+  right: 0;
+}
+
+.drawer-header {
+  padding: 1rem;
+  border-bottom: 1px solid #dee2e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.drawer-body {
+  padding: 1rem;
+}
+
+/* Custom styles for table */
+.table th {
+  font-weight: 500;
+  color: #6c757d;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .drawer {
+    width: 100%;
+    right: -100%;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
