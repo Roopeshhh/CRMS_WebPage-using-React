@@ -1,7 +1,11 @@
-import React, { useState } from 'react';
-import { FaCalendarAlt, FaEnvelope, FaCheckSquare, FaPhone } from 'react-icons/fa';
-import AddActivitySidebar from '../Activity/AddActivitySidebar';
-
+import React, { useState } from "react";
+import {
+  FaCalendarAlt,
+  FaEnvelope,
+  FaCheckSquare,
+  FaPhone,
+} from "react-icons/fa";
+import AddActivitySidebar from "../Activity/AddActivitySidebar";
 
 const Activities = ({ activities }) => {
   const [isAddActivityOpen, setIsAddActivityOpen] = useState(false);
@@ -9,13 +13,13 @@ const Activities = ({ activities }) => {
 
   const getActivityIcon = (type) => {
     switch (type.toLowerCase()) {
-      case 'meeting':
+      case "meeting":
         return <FaCalendarAlt className="activity-icon meeting" />;
-      case 'email':
+      case "email":
         return <FaEnvelope className="activity-icon email" />;
-      case 'task':
+      case "task":
         return <FaCheckSquare className="activity-icon task" />;
-      case 'calls':
+      case "calls":
         return <FaPhone className="activity-icon calls" />;
       default:
         return null;
@@ -24,7 +28,7 @@ const Activities = ({ activities }) => {
 
   const handleAddActivity = (newActivity) => {
     // Handle adding new activity to the list
-    console.log('New activity:', newActivity);
+    console.log("New activity:", newActivity);
     setIsAddActivityOpen(false);
   };
 
@@ -37,13 +41,12 @@ const Activities = ({ activities }) => {
             <option>Last 30 Days</option>
             <option>Last 60 Days</option>
           </select>
-          <button 
+          <button
             className="add-activity-btn"
             onClick={() => {
               setSelectedActivity(null);
               setIsAddActivityOpen(true);
-            }}
-          >
+            }}>
             Add New Activity
           </button>
         </div>
@@ -57,7 +60,8 @@ const Activities = ({ activities }) => {
               <p className="due-date">Due Date: {activity.dueDate}</p>
               <div className="activity-meta">
                 {getActivityIcon(activity.type)}
-                <span className={`activity-type ${activity.type.toLowerCase()}`}>
+                <span
+                  className={`activity-type ${activity.type.toLowerCase()}`}>
                   {activity.type}
                 </span>
                 <div className="activity-assignee">
@@ -76,7 +80,7 @@ const Activities = ({ activities }) => {
         ))}
       </div>
 
-      <AddActivitySidebar 
+      <AddActivitySidebar
         isOpen={isAddActivityOpen}
         onClose={() => setIsAddActivityOpen(false)}
         activity={selectedActivity}

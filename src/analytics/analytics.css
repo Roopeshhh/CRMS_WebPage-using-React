@@ -21,8 +21,9 @@
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 24px;
+  padding: 20px;
   width: 100%;
-  box-sizing: border-box;
+  max-width: 100%;
 }
 
 /* Common Card Styles */
@@ -271,7 +272,7 @@
 }
 
 /* Buttons */
-.add-btn, 
+.add-btn,
 .add-activity-btn,
 .add-pipeline-btn,
 .add-company-btn {
@@ -288,7 +289,7 @@
   gap: 8px;
 }
 
-.add-btn:hover, 
+.add-btn:hover,
 .add-activity-btn:hover,
 .add-pipeline-btn:hover,
 .add-company-btn:hover {
@@ -353,7 +354,7 @@
   .analytics-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .sidebar-content {
     width: 100%;
     max-width: 400px;
@@ -364,21 +365,21 @@
   .analytics-container {
     padding: 16px;
   }
-  
+
   .analytics-grid {
     gap: 16px;
   }
-  
+
   .stats-row {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .table-header,
   .contact-row,
   .company-row {
     grid-template-columns: 1fr 1fr;
   }
-  
+
   .contact-phone,
   .contact-date,
   .company-phone,
@@ -691,7 +692,7 @@
   font-size: 13px;
 }
 
-.contact-email, 
+.contact-email,
 .contact-phone {
   color: white;
   font-size: 14px;
@@ -809,13 +810,31 @@
 
 /* White background for all grid items except contacts and deals cards */
 .grid-item {
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border-radius: 8px;
   padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 100%;
-  box-sizing: border-box;
-  min-width: 0;
+  height: 100%;
+  min-height: 400px;
+  overflow: hidden;
+}
+
+/* Specific chart containers */
+.grid-item > div {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Make sure charts take full width */
+.grid-item canvas {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* Add specific styling for charts */
+.grid-item:nth-child(2) {
+  height: 400px;
 }
 
 /* Keep the specific backgrounds for contacts and deals cards */
